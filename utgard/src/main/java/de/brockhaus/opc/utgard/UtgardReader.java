@@ -23,10 +23,10 @@ import org.openscada.opc.lib.da.SyncAccess;
     public void init()
     {
     	// create connection information 
-        ci.setHost("asus");
+        ci.setHost("srumpf-work");
         ci.setDomain("");
-        ci.setUser("Julián Francisco");
-        ci.setPassword("09mayo");
+        ci.setUser("Administrator");
+        ci.setPassword("Admin");
         ci.setClsid("F8582CF2-88FB-11D0-B850-00C0F0104305");
         itemId = "Saw-toothed Waves.Int2";
         // create a new server
