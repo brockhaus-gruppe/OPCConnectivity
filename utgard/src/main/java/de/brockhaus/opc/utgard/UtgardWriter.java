@@ -28,10 +28,10 @@ public class UtgardWriter
     public void init()
     {
     	// create connection information 
-    	ci.setHost("asus");
-    	ci.setDomain("");
-    	ci.setUser("Julián Francisco");
-    	ci.setPassword("09mayo");
+    	ci.setHost("srumpf-work");
+        ci.setDomain("");
+        ci.setUser("Administrator");
+        ci.setPassword("Admin");
     	ci.setClsid("F8582CF2-88FB-11D0-B850-00C0F0104305");
     	itemId = "Bucket Brigade.Int2";
     	// create a new server
