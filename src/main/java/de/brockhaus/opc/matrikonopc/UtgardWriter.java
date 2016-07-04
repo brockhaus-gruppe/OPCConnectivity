@@ -1,4 +1,4 @@
-package de.brockhaus.opc.utgard;
+package de.brockhaus.opc.matrikonopc;
 import java.net.UnknownHostException;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

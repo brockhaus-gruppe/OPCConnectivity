@@ -1,4 +1,4 @@
-package de.brockhaus.opc.utgard;
+package de.brockhaus.opc.matrikonopc;
 
 import java.net.UnknownHostException;
 
@@ -9,14 +9,16 @@ import org.openscada.opc.lib.common.NotConnectedException;
 import org.openscada.opc.lib.da.AddFailedException;
 import org.openscada.opc.lib.da.DuplicateGroupException;
 
-public class UtgardReaderTest
+import de.brockhaus.opc.matrikonopc.UtgardWriter;
+
+public class UtgardWriterTest
 {
 	@Test
 	public void test() throws IllegalArgumentException, UnknownHostException, AlreadyConnectedException, NotConnectedException, JIException, DuplicateGroupException, AddFailedException, InterruptedException
 	{
-		UtgardReader ur = new UtgardReader();
-		ur.init();
-		ur.connect();
-		ur.doRead();	
-	}	
+		UtgardWriter uw = new UtgardWriter();
+		uw.init();
+		uw.connect();
+		uw.doWrite(); 
+	}
 }
